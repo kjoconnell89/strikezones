@@ -1,0 +1,29 @@
+[{
+    'official': {
+        'id': 427139,
+        'fullName': 'Doug Eddings',
+        'link': '/api/v1/people/427139'
+    },
+    'officialType': 'Home Plate'
+}, {
+    'official': {
+        'id': 482620,
+        'fullName': 'Chris Conroy',
+        'link': '/api/v1/people/482620'
+    },
+    'officialType': 'First Base'
+}, {
+    'official': {
+        'id': 489985,
+        'fullName': 'Chad Whitson',
+        'link': '/api/v1/people/489985'
+    },
+    'officialType': 'Second Base'
+}, {
+    'official': {
+        'id': 482641,
+        'fullName': 'Adrian Johnson',
+        'link': '/api/v1/people/482641'
+    },
+    'officialType': 'Third Base'
+}]

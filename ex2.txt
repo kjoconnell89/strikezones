@@ -1,0 +1,495 @@
+{
+    'result': {
+        'type': 'atBat',
+        'event': 'Flyout',
+        'eventType': 'field_out',
+        'description': 'Josh VanMeter flies out to right fielder Jose Martinez.',
+        'rbi': 0,
+        'awayScore': 0,
+        'homeScore': 0
+    },
+    'about': {
+        'atBatIndex': 0,
+        'halfInning': 'top',
+        'inning': 1,
+        'startTime': '2019-09-01T16:21:43.000Z',
+        'endTime': '2019-09-01T17:09:06.000Z',
+        'isComplete': True,
+        'isScoringPlay': False,
+        'hasReview': False,
+        'hasOut': True,
+        'captivatingIndex': 0
+    },
+    'count': {
+        'balls': 3,
+        'strikes': 2,
+        'outs': 1
+    },
+    'matchup': {
+        'batter': {
+            'id': 642165,
+            'fullName': 'Josh VanMeter',
+            'link': '/api/v1/people/642165'
+        },
+        'batSide': {
+            'code': 'L',
+            'description': 'Left'
+        },
+        'pitcher': {
+            'id': 571945,
+            'fullName': 'Miles Mikolas',
+            'link': '/api/v1/people/571945'
+        },
+        'pitchHand': {
+            'code': 'R',
+            'description': 'Right'
+        },
+        'batterHotColdZones': [],
+        'pitcherHotColdZones': [],
+        'splits': {
+            'batter': 'vs_RHP',
+            'pitcher': 'vs_LHB',
+            'menOnBase': 'Empty'
+        }
+    },
+    'pitchIndex': [0, 1, 2, 3, 4, 5],
+    'actionIndex': [],
+    'runnerIndex': [0],
+    'runners': [{
+        'movement': {
+            'start': None,
+            'end': None,
+            'outBase': '1B',
+            'isOut': True,
+            'outNumber': 1
+        },
+        'details': {
+            'event': 'Field Out',
+            'eventType': 'field_out',
+            'movementReason': None,
+            'runner': {
+                'id': 642165,
+                'fullName': 'Josh VanMeter',
+                'link': '/api/v1/people/642165'
+            },
+            'responsiblePitcher': None,
+            'isScoringEvent': False,
+            'rbi': False,
+            'earned': False,
+            'teamUnearned': False,
+            'playIndex': 5
+        },
+        'credits': [{
+            'player': {
+                'id': 500874,
+                'link': '/api/v1/people/500874'
+            },
+            'position': {
+                'code': '9',
+                'name': 'Outfielder',
+                'type': 'Outfielder',
+                'abbreviation': 'RF'
+            },
+            'credit': 'f_putout'
+        }]
+    }],
+    'playEvents': [{
+        'details': {
+            'call': {
+                'code': 'S',
+                'description': 'Strike - Swinging'
+            },
+            'description': 'Called Strike',
+            'code': 'C',
+            'ballColor': 'rgba(170, 21, 11, 1.0)',
+            'trailColor': 'rgba(0, 34, 255, 1.0)',
+            'isInPlay': False,
+            'isStrike': True,
+            'isBall': False,
+            'type': {
+                'code': 'CU',
+                'description': 'Curveball'
+            },
+            'hasReview': False
+        },
+        'count': {
+            'balls': 0,
+            'strikes': 1
+        },
+        'pitchData': {
+            'startSpeed': 78.6,
+            'endSpeed': 73.2,
+            'strikeZoneTop': 3.32,
+            'strikeZoneBottom': 1.45,
+            'coordinates': {
+                'aY': 19.75,
+                'aZ': -41.45,
+                'pfxX': 5.23,
+                'pfxZ': -6.94,
+                'pX': 0.13,
+                'pZ': 3.17,
+                'vX0': 3.12,
+                'vY0': -114.51,
+                'vZ0': 0.86,
+                'x': 111.96,
+                'y': 153.13,
+                'x0': -1.92,
+                'y0': 50.0,
+                'z0': 6.82,
+                'aX': 6.99
+            },
+            'breaks': {
+                'breakAngle': 9.6,
+                'breakLength': 13.2,
+                'breakY': 24.0,
+                'spinRate': 2740,
+                'spinDirection': 40
+            },
+            'zone': 2,
+            'plateTime': 0.48,
+            'extension': 6.05
+        },
+        'index': 0,
+        'pfxId': '190901_170726',
+        'playId': '580c448f-9dcf-4849-8711-1daf58d0548e',
+        'pitchNumber': 1,
+        'startTime': '2019-09-01T17:07:21.000Z',
+        'endTime': '2019-09-01T17:07:37.000Z',
+        'isPitch': True,
+        'type': 'pitch'
+    }, {
+        'details': {
+            'call': {
+                'code': 'S',
+                'description': 'Strike - Swinging'
+            },
+            'description': 'Swinging Strike',
+            'code': 'S',
+            'ballColor': 'rgba(170, 21, 11, 1.0)',
+            'trailColor': 'rgba(188, 0, 33, 1.0)',
+            'isInPlay': False,
+            'isStrike': True,
+            'isBall': False,
+            'type': {
+                'code': 'FF',
+                'description': 'Four-Seam Fastball'
+            },
+            'hasReview': False
+        },
+        'count': {
+            'balls': 0,
+            'strikes': 2
+        },
+        'pitchData': {
+            'startSpeed': 94.6,
+            'endSpeed': 87.6,
+            'strikeZoneTop': 3.36,
+            'strikeZoneBottom': 1.61,
+            'coordinates': {
+                'aY': 26.27,
+                'aZ': -14.21,
+                'pfxX': -4.61,
+                'pfxZ': 9.26,
+                'pX': 0.88,
+                'pZ': 3.25,
+                'vX0': 8.8,
+                'vY0': -137.44,
+                'vZ0': -6.55,
+                'x': 83.33,
+                'y': 151.16,
+                'x0': -1.74,
+                'y0': 50.0,
+                'z0': 6.6,
+                'aX': -8.94
+            },
+            'breaks': {
+                'breakAngle': 25.2,
+                'breakLength': 3.6,
+                'breakY': 24.0,
+                'spinRate': 2315,
+                'spinDirection': 203
+            },
+            'zone': 12,
+            'plateTime': 0.4,
+            'extension': 6.13
+        },
+        'index': 1,
+        'pfxId': '190901_170742',
+        'playId': 'e598ce9c-3b68-4d91-8e5a-724f373b47ae',
+        'pitchNumber': 2,
+        'startTime': '2019-09-01T17:07:37.000Z',
+        'endTime': '2019-09-01T17:07:54.000Z',
+        'isPitch': True,
+        'type': 'pitch'
+    }, {
+        'details': {
+            'call': {
+                'code': 'B',
+                'description': 'Ball - Called'
+            },
+            'description': 'Ball',
+            'code': 'B',
+            'ballColor': 'rgba(39, 161, 39, 1.0)',
+            'trailColor': 'rgba(0, 0, 254, 1.0)',
+            'isInPlay': False,
+            'isStrike': False,
+            'isBall': True,
+            'type': {
+                'code': 'SL',
+                'description': 'Slider'
+            },
+            'hasReview': False
+        },
+        'count': {
+            'balls': 1,
+            'strikes': 2
+        },
+        'pitchData': {
+            'startSpeed': 89.5,
+            'endSpeed': 83.6,
+            'strikeZoneTop': 3.38,
+            'strikeZoneBottom': 1.54,
+            'coordinates': {
+                'aY': 23.58,
+                'aZ': -24.99,
+                'pfxX': 2.41,
+                'pfxZ': 4.13,
+                'pX': 1.17,
+                'pZ': 1.17,
+                'vX0': 6.79,
+                'vY0': -130.07,
+                'vZ0': -8.83,
+                'x': 72.38,
+                'y': 207.25,
+                'x0': -1.77,
+                'y0': 50.0,
+                'z0': 6.46,
+                'aX': 4.19
+            },
+            'breaks': {
+                'breakAngle': 10.8,
+                'breakLength': 6.0,
+                'breakY': 24.0,
+                'spinRate': 2431,
+                'spinDirection': 136
+            },
+            'zone': 14,
+            'plateTime': 0.42,
+            'extension': 6.06
+        },
+        'index': 2,
+        'pfxId': '190901_170759',
+        'playId': 'a79cfd89-def9-4bbf-8e6e-f75e9c3f36b7',
+        'pitchNumber': 3,
+        'startTime': '2019-09-01T17:07:54.000Z',
+        'endTime': '2019-09-01T17:08:10.000Z',
+        'isPitch': True,
+        'type': 'pitch'
+    }, {
+        'details': {
+            'call': {
+                'code': 'B',
+                'description': 'Ball - Called'
+            },
+            'description': 'Ball',
+            'code': 'B',
+            'ballColor': 'rgba(39, 161, 39, 1.0)',
+            'trailColor': 'rgba(0, 0, 254, 1.0)',
+            'isInPlay': False,
+            'isStrike': False,
+            'isBall': True,
+            'type': {
+                'code': 'SL',
+                'description': 'Slider'
+            },
+            'hasReview': False
+        },
+        'count': {
+            'balls': 2,
+            'strikes': 2
+        },
+        'pitchData': {
+            'startSpeed': 89.8,
+            'endSpeed': 84.3,
+            'strikeZoneTop': 3.29,
+            'strikeZoneBottom': 1.54,
+            'coordinates': {
+                'aY': 21.84,
+                'aZ': -25.28,
+                'pfxX': 1.06,
+                'pfxZ': 3.91,
+                'pX': -0.31,
+                'pZ': 1.3,
+                'vX0': 4.25,
+                'vY0': -130.64,
+                'vZ0': -8.27,
+                'x': 128.9,
+                'y': 203.64,
+                'x0': -2.08,
+                'y0': 50.0,
+                'z0': 6.35,
+                'aX': 1.88
+            },
+            'breaks': {
+                'breakAngle': 4.8,
+                'breakLength': 6.0,
+                'breakY': 24.0,
+                'spinRate': 2427,
+                'spinDirection': 155
+            },
+            'zone': 13,
+            'plateTime': 0.42,
+            'extension': 6.17
+        },
+        'index': 3,
+        'pfxId': '190901_170815',
+        'playId': '78d048ab-d638-4b0d-a4cf-7b99380ba498',
+        'pitchNumber': 4,
+        'startTime': '2019-09-01T17:08:10.000Z',
+        'endTime': '2019-09-01T17:08:27.000Z',
+        'isPitch': True,
+        'type': 'pitch'
+    }, {
+        'details': {
+            'call': {
+                'code': 'B',
+                'description': 'Ball - Called'
+            },
+            'description': 'Ball',
+            'code': 'B',
+            'ballColor': 'rgba(39, 161, 39, 1.0)',
+            'trailColor': 'rgba(0, 34, 255, 1.0)',
+            'isInPlay': False,
+            'isStrike': False,
+            'isBall': True,
+            'type': {
+                'code': 'CU',
+                'description': 'Curveball'
+            },
+            'hasReview': False
+        },
+        'count': {
+            'balls': 3,
+            'strikes': 2
+        },
+        'pitchData': {
+            'startSpeed': 81.6,
+            'endSpeed': 76.0,
+            'strikeZoneTop': 3.38,
+            'strikeZoneBottom': 1.57,
+            'coordinates': {
+                'aY': 22.34,
+                'aZ': -42.35,
+                'pfxX': 3.96,
+                'pfxZ': -7.16,
+                'pX': 1.5,
+                'pZ': 0.91,
+                'vX0': 6.57,
+                'vY0': -118.4,
+                'vZ0': -4.02,
+                'x': 59.78,
+                'y': 214.23,
+                'x0': -1.82,
+                'y0': 50.0,
+                'z0': 6.5,
+                'aX': 5.64
+            },
+            'breaks': {
+                'breakAngle': 8.4,
+                'breakLength': 12.0,
+                'breakY': 24.0,
+                'spinRate': 2764,
+                'spinDirection': 32
+            },
+            'zone': 14,
+            'plateTime': 0.47,
+            'extension': 5.01
+        },
+        'index': 4,
+        'pfxId': '190901_170833',
+        'playId': '18beaeb8-c502-4eb4-aec5-9de1849313e7',
+        'pitchNumber': 5,
+        'startTime': '2019-09-01T17:08:27.000Z',
+        'endTime': '2019-09-01T17:08:47.000Z',
+        'isPitch': True,
+        'type': 'pitch'
+    }, {
+        'details': {
+            'call': {
+                'code': 'X',
+                'description': 'Hit Into Play - Out(s)'
+            },
+            'description': 'In play, out(s)',
+            'code': 'X',
+            'ballColor': 'rgba(26, 86, 190, 1.0)',
+            'trailColor': 'rgba(0, 0, 254, 1.0)',
+            'isInPlay': True,
+            'isStrike': False,
+            'isBall': False,
+            'type': {
+                'code': 'SL',
+                'description': 'Slider'
+            },
+            'hasReview': False
+        },
+        'count': {
+            'balls': 3,
+            'strikes': 2
+        },
+        'pitchData': {
+            'startSpeed': 88.7,
+            'endSpeed': 82.8,
+            'strikeZoneTop': 3.36,
+            'strikeZoneBottom': 1.61,
+            'coordinates': {
+                'aY': 22.47,
+                'aZ': -27.76,
+                'pfxX': 1.06,
+                'pfxZ': 2.57,
+                'pX': -0.02,
+                'pZ': 3.11,
+                'vX0': 4.54,
+                'vY0': -129.26,
+                'vZ0': -3.46,
+                'x': 117.67,
+                'y': 154.78,
+                'x0': -1.92,
+                'y0': 50.0,
+                'z0': 6.56,
+                'aX': 1.82
+            },
+            'breaks': {
+                'breakAngle': 4.8,
+                'breakLength': 7.2,
+                'breakY': 24.0,
+                'spinRate': 2398,
+                'spinDirection': 147
+            },
+            'zone': 2,
+            'plateTime': 0.42,
+            'extension': 6.2
+        },
+        'hitData': {
+            'launchSpeed': 90.18,
+            'launchAngle': 34.75,
+            'totalDistance': 333.45,
+            'trajectory': 'fly_ball',
+            'hardness': 'medium',
+            'location': '9',
+            'coordinates': {
+                'coordX': 187.98,
+                'coordY': 72.49
+            }
+        },
+        'index': 5,
+        'pfxId': '190901_170902',
+        'playId': 'a3b7212d-38c6-44fc-bcbb-022ef00320ff',
+        'pitchNumber': 6,
+        'startTime': '2019-09-01T17:08:47.000Z',
+        'endTime': '2019-09-01T17:09:06.000Z',
+        'isPitch': True,
+        'type': 'pitch'
+    }],
+    'playEndTime': '2019-09-01T17:09:06.000Z',
+    'atBatIndex': 0
+}

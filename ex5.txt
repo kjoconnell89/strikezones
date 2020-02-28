@@ -1,0 +1,49 @@
+'ID451594': {
+        'id': 451594,
+        'fullName': 'Dexter Fowler',
+        'link': '/api/v1/people/451594',
+        'firstName': 'William',
+        'lastName': 'Fowler',
+        'primaryNumber': '25',
+        'birthDate': '1986-03-22',
+        'currentAge': 33,
+        'birthCity': 'Atlanta',
+        'birthStateProvince': 'GA',
+        'birthCountry': 'USA',
+        'height': "6' 5",
+        'weight': 195,
+        'active': True,
+        'primaryPosition': {
+            'code': '9',
+            'name': 'Outfielder',
+            'type': 'Outfielder',
+            'abbreviation': 'RF'
+        },
+        'useName': 'Dexter',
+        'middleName': 'Dexter',
+        'boxscoreName': 'Fowler',
+        'nickName': 'Dex',
+        'gender': 'M',
+        'isPlayer': True,
+        'isVerified': True,
+        'draftYear': 2004,
+        'mlbDebutDate': '2008-09-02',
+        'batSide': {
+            'code': 'S',
+            'description': 'Switch'
+        },
+        'pitchHand': {
+            'code': 'R',
+            'description': 'Right'
+        },
+        'nameFirstLast': 'Dexter Fowler',
+        'nameSlug': 'dexter-fowler-451594',
+        'firstLastName': 'Dexter Fowler',
+        'lastFirstName': 'Fowler, Dexter',
+        'lastInitName': 'Fowler, D',
+        'initLastName': 'D Fowler',
+        'fullFMLName': 'William Dexter Fowler',
+        'fullLFMName': 'Fowler, William Dexter',
+        'strikeZoneTop': 3.54,
+        'strikeZoneBottom': 1.74
+    }
